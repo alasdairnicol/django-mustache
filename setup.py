@@ -8,7 +8,6 @@ setup(name='django-mustache',
       author_email='alasdair@thenicols.net',
       packages=['django_mustache',
                 'django_mustache.backends',
-                'django_mustache.backends.mustache',
       ],
       requires=['pystache', 'django (>=1.8)'],
 )
